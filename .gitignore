@@ -137,4 +137,4 @@ eb-package.zip
 static/
 config.pyconfig.py
 
-config.py
+profiles_project/config.py
