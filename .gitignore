@@ -136,3 +136,5 @@ dmypy.json
 eb-package.zip
 static/
 config.pyconfig.py
+
+config.py
