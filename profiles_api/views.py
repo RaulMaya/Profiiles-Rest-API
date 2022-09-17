@@ -89,5 +89,10 @@ class HelloViewSet(viewsets.ViewSet):
         """Handle updating an object by its ID"""
         return Response({'http_method':'PUT'})
 
-    def partial_update(self, request)
-    def destroy(self, request)
+    def partial_update(self, request, pk=None):
+        """Handle updating part of an object by its ID"""
+        return Response({'http_method':'PATCH'})
+
+    def destroy(self, request, pk=None):
+        """Removing an object by its ID"""
+        return Response({'http_method':'DELETE'})        
