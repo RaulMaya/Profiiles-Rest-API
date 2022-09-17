@@ -3,7 +3,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status, viewsets
 
-from profiles_api import serializers
+from profiles_api import serializers, models
 
 
 
@@ -83,7 +83,7 @@ class HelloViewSet(viewsets.ViewSet):
 
     def retrieve(self, request, pk=None):
         """Handle getting an object by its ID"""
-        return Response({'http_methosd':'GET'})
+        return Response({'http_method':'GET'})
 
     def update(self, request, pk=None):
         """Handle updating an object by its ID"""
@@ -96,3 +96,10 @@ class HelloViewSet(viewsets.ViewSet):
     def destroy(self, request, pk=None):
         """Removing an object by its ID"""
         return Response({'http_method':'DELETE'})        
+
+
+class UserProfileViewSet(viewsets.ModelViewSet):
+    """Creates and Updates an User Profile"""
+    serializer_class = serializers.UserProfileSerializer
+    queryset = models.UserProfile.objects.all()
+     
