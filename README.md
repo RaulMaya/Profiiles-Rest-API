@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/RaulMaya/Profiles-Rest-API">
-    <img src="static/restDjango.png" alt="Logo" width="350" height="200">
+    <img src="resources/restDjango.png" alt="Logo" width="350" height="200">
   </a>
 
   <h2 align="center">Creating a API with Django</h2>
@@ -35,7 +35,7 @@ The API Developed is fully functional and can handle:
 
 |<center>  Quick Look Up  </center>|
 | --- |
-| ![API](static/output.jpg) |
+| ![API](resources/output.jpg) |
 
 
 
