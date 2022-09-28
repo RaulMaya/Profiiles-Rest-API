@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://raulmaya.github.io/Data-Visualization/">
+  <a href="https://github.com/RaulMaya/Profiles-Rest-API">
     <img src="static/restDjango.png" alt="Logo" width="350" height="200">
   </a>
 
